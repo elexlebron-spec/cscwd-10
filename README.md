@@ -2,12 +2,16 @@
 
 Reproduction materials for *When Additive Repair Costs Mislead Collaborative Design Workflows*.
 
-## Published artifact
+## Current artifact
 
-[Version 6, fixed commit 1b88c239e7e2](https://github.com/elexlebron-spec/cscwd-10/tree/1b88c239e7e2112f27faea1d9e1253e6aeda5c73/repair-cost-audit/v6)
+[Version 7, fixed commit 9f4d8463b4b9](https://github.com/elexlebron-spec/cscwd-10/tree/9f4d8463b4b970a72dd80029776bef44e87dc852/repair-cost-audit/v7)
 
-Download artifact.zip and verify SHA256SUMS. Extract and follow READ_THIS_FIRST.txt. The public archive contains frozen code, protocols, complete reported data, failed stages, and independent verification commands. All 27 tests and the evidence verifier passed from a separate extraction. Anonymous download was verified against the local SHA-256.
+Download artifact.zip and SHA256SUMS, extract, and follow READ_THIS_FIRST.txt. Thirty tests and the evidence verifier pass from a separate extraction. Anonymous download matches the local SHA-256.
 
-Actual planner adoption is established at the search-heuristic layer, with a controlled six-case engineering cost adapter. This is not observed industrial deployment. Cost sharing, add/FF planning heuristics, union costs and MILP are prior art. The contribution is an empirical integration-contract audit.
+Version7 adds a formal additive/core-corrected/union baseline on54 beam inputs,1134 timed records,integer-coefficient checks of1350 structural evaluations,all256 physical layouts,96 fixed weight-permutation settings,and grouped/component analyses. All54 core optimum values match union;53 selected representatives coincide. Median paired core/union selection-time ratio0.670 excludes FE replay and setup. Permuted weights produce12 physically better,30 worse and54 equal union outcomes. Numerical failures are preserved and explicitly checked.
 
-Institutionally accessed article PDFs and extracted full text are excluded. Upstream source licenses are preserved. This is a public versioned Git artifact, without an independent archival DOI.
+The contribution is a controlled empirical audit of cost transfer across estimator/executor interfaces. Planning add/FF heuristics,shared costs,MILP and engineering batching are prior art. Mechanism validation in actual planner software does not establish natural engineering repair deployment or elicited user utility.
+
+[Earlier version6](https://github.com/elexlebron-spec/cscwd-10/tree/1b88c239e7e2112f27faea1d9e1253e6aeda5c73/repair-cost-audit/v6) remains accessible.
+
+Institutional article PDFs and extracted full text are excluded. Upstream licenses remain authoritative. Public Git versioning does not imply an independent archival DOI or anonymous hosting.
