@@ -1,0 +1,59 @@
+Industrial adoption evidence audit v9  2026-10-28
+
+Outcome
+The complete adoption claim remains unverified. Public sources establish industrial engineering-change review,per-request implementation-cost fields,and deployed change-management systems. None of the inspected sources documents the full conjunction:optional design edits already materialized;withdrawal alternatives selected using sums of independently estimated downstream rework;the selected alternatives then executed with shared tasks activated once. An unreported policy is unknown,not absent. This audit must not be described as having closed industrial adoption.
+
+Claim decomposition
+A Actual industrial workflow. Identify a company,project or an explicitly documented production procedure,and distinguish field deployment from a research prototype.
+B Same decision object. Rejecting an unimplemented ECR differs from withdrawing an edit from an already-materialized candidate. Recovering sunk manufacturing costs also differs from recomputing cached analyses.
+C Actual aggregation policy. A scalar cost field,an additive BOM price,or a sum of parameter deviations is insufficient. A decision record,formula,source or implementation must show the relevant independent rework estimates being added when choosing a set.
+D Compatible execution scope. Trace the same task identity and resource scope through estimation and execution. Separate mandatory per-change approvals from reusable calculations. If every change requires its own deliverable,the tasks may legitimately be distinct.
+E Connected evidence. A company deployment in one source and a vendor's default workflow in another do not prove that the company used that exact default,version,cost field,aggregation rule or once-per-batch execution contract.
+
+Primary sources inspected
+
+1 Aras Change Management documentation,updated2026-08-06
+https://docs.aras.com/change-management/0000019f-d65d-d08f-a1df-df7d1f240000
+Sections Understanding the ECR Process,Technical Review of an ECR,and CMII Change Management distinguish PR,ECR and ECN. The owner supplies a one-time implementation estimate and a separate unit-cost change;review routes to approval,rejection or investigation. ECR itself does not implement an item change. This documents a commercially supplied cost-carrying review interface. It does not report cross-ECR additive selection,downstream cost double charging or reversal of materialized edits. ECR states are not a proxy for our withdrawal variables.
+
+2 Carestream Health deployment presentation by David G.Sherburne
+https://aras.com/wp-content/uploads/2024/03/carestream-health-aras-product-lifecycle-management-implementation.pdf
+PDF page21,printed slide29,lists closed-loop engineering change and SAP integration across four development sites. This is a named customer-authored deployment account hosted by the vendor. It establishes deployed change management;it does not reveal the customer’s cost aggregation,withdrawal decisions or exact compliance with a later vendor default. Do not transfer the2026 manual's detailed behavior to this older deployment.
+
+3 AD Plastik Supplier Quality Manual,Second Edition,November2020
+https://www.adplastik.hr/wp-content/uploads/2020/12/Supplier-Quality-Manual.pdf
+Section4.11,PDF/printed page9,requires feasibility,cost impact and timing review,then implementation through a purchase order and new design revision. It also requires a new PPAP submission for each change. This is a direct manufacturing-process requirement. It does not price or optimize withdrawal sets. The per-change PPAP requirement prevents assuming that all similarly named verification/approval work is a single shared batch task;it does not establish that no underlying analysis can be reused.
+
+4 NASA Systems Engineering Handbook,Section6.5
+https://www.nasa.gov/reference/6-0-crosscutting-technical-management/
+Formal change control documents decision and coordination responsibilities. This supplies process context,not measured industrial adoption of a scalar-sum withdrawal planner. No claim about legal compliance or universal use is made.
+
+5 Jongeling,Ciccozzi,Carlson,Cicchetti2022
+Consistency management in industrial continuous model-based development settings:a reality check
+https://doi.org/10.1007/s10270-022-01000-5
+Section5.1.2 reports mostly manual/on-demand consistency repair in thirteen settings across nine companies;automated repair was observed in only one setting. This sample illustrates why automated industrial adoption must be observed rather than presumed. It neither estimates current2026 prevalence nor identifies the audited cost policy.
+
+6 Feasibility Study for an Automated Engineering Change Process,2021
+https://pmc.ncbi.nlm.nih.gov/articles/PMC9813918/
+DOI10.1080/00207543.2021.1893900
+Sections3.2.2 and4.3.3 use summed normalized parameter-deviation penalties. The work explicitly presents a proof-of-concept Auto-ECR implementation. These penalties express design disruption rather than independently profiled downstream rework. A physical case and commercial analysis integration do not make it an observed production selector using our cost contract. Its result percentages are not comparable to ours.
+
+7 Bilal et al.2025,Ranking guidance actions to support engineers in fulfilling process constraints
+https://doi.org/10.1002/smr.2729
+The primary full-text search representation exposes Sections6.1 and8.1.3. The study replays industrial Jama/Jira change history;its construct-validity discussion distinguishes historical engineer actions from being shown and adopting a ranked recommendation. Scores use learned action frequencies and alternative/sequence aggregation,not the audited sum of downstream rework. This is relevant real-history evidence,not a deployment witness for our policy. Direct page retrieval timed out;no claim of complete independent page-by-page review is made.
+
+8 Oh and Hong2017,Change propagation management by active batching
+https://www.designsociety.org/download-publication/39710/change_propagation_management_by_active_batching
+Batch setup/redundancy savings are direct prior art. The reported numerical software-project study does not identify naturally adopted industrial withdrawal pricing. It remains a near-work comparison,not adoption evidence.
+
+Implication for the manuscript
+Use Aras and Carestream as separate evidence for an existing industrial interface and named deployment. State that their combination does not certify the tested policy. Use AD Plastik to define an applicability gate:task identity includes approval/change/revision context where required. Treat the additive repair score as a controlled transfer policy under the specified execution contract. The actual native additive final-load policy is established for pytest-split,not transposed to industrial ECRs.
+
+Defensible manuscript statement
+Industrial change-management interfaces already carry per-request implementation estimates and route proposals to review. Their existence motivates auditing what happens if such estimates are transferred to a batch selector. The present evidence does not establish that deployed industrial systems use this aggregation rule,or that rejected proposals correspond to withdrawing materialized edits.
+
+Minimum evidence needed to close the exact claim
+One coherent project/version/time-window must expose:the predecision candidate state;edit and alternative-set identities;the original independent cost records and units;the actual aggregation formula or selector implementation;the chosen withdrawals and decision timestamp;affected task identities keyed by scope;and execution/approval traces showing which charges may be shared. Redacted project records are acceptable if provenance and permission are verifiable. A new adapter,simulation,assumed value,public cost form or unrelated deployment cannot replace these records.
+
+Status and release
+This is a source/evidence revision,not a new experiment. Frozen v3--v8 modules,33-test reference and scientific outcomes remain unchanged. The public supplement contains paraphrase notes,source links,source hashes where downloaded,and a claim gate;no third-party PDF,full article text,full issue discussion or private institutional material is redistributed. The main v8 scientific artifact remains the reproduction base.

@@ -1,0 +1,14 @@
+{
+  "version": 9,
+  "revision_kind": "public-source evidence audit; no new experiment",
+  "date": "2026-10-28",
+  "question": "Natural industrial adoption of the exact additive rework withdrawal policy",
+  "status": "not_established",
+  "not_established_is_not_proof_of_absence": true,
+  "new_positive_evidence": ["commercial cost-carrying ECR review interface", "named customer change-management deployment", "direct manufacturing change-control procedure"],
+  "required_conjunction": ["same industrial project and version", "materialized optional-edit candidate", "original per-edit downstream rework estimates", "actual additive selection rule", "recorded withdrawal decision", "compatible shared-task execution and approval scope"],
+  "sources_closing_entire_conjunction": [],
+  "invalid_inferences": ["cost field implies additive batch selector", "named customer implies use of later vendor defaults", "ECR rejection equals rollback", "sum of parameter deviations equals rework price", "same task name implies legally and technically shareable task", "retrospective ranking accuracy implies user adoption"],
+  "scientific_base": {"version": 8, "commit": "278d73cb6a4ab812d538207ea6b165e80dbf62fb", "tests": 33, "experimental_outcomes_changed": false},
+  "do_not_report_as_closed": true
+}

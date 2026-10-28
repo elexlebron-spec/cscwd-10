@@ -1,0 +1,14 @@
+{
+  "carestream": {
+    "sha256": "1b8586cb06901031298edb209d9375ecea68eb04b7deef159b59cda278715fab",
+    "pages": 23,
+    "inspected_pdf_page": 21,
+    "full_pdf_redistributed": false
+  },
+  "adplastik": {
+    "sha256": "1219e4587fc97219c2ffda6c17080b0c634c87a383f642f9c674a132b536ba8b",
+    "pages": 14,
+    "inspected_pdf_page": 9,
+    "full_pdf_redistributed": false
+  }
+}
